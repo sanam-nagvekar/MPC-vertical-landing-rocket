@@ -4,7 +4,7 @@
 Constrained Finite Time Optimal Control (CFTOC) Landing Trajectory
 
 Finite-time QP optimization is used to generate a smooth and feasible landing trajectory for a gimble thrust rocket. 
-The "mpc-falcon-controller.py" script will later use MPC to control a high-fidelity rocket model along this reference trajectory.
+The "mpc-rocket-controller.py" script will later use MPC to control a high-fidelity rocket model along this reference trajectory.
 """
 
 import matplotlib.pyplot as plt
